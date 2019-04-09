@@ -1,0 +1,193 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+
+    <title>Weerwinkel | Betaalinfo</title>
+	
+	<meta name="description" content="Geef je betaalinfo">
+	<meta name="keywords" content="Weerwinkel, betalen, betaalinfo, weer kopen">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<link rel="icon" 
+		  type="image/png" 
+		  href="../styles/images/favicon.png">
+	
+	<link href="https://fonts.googleapis.com/css?family=Oswald:bold,regular|Raleway:italic,regular" rel="stylesheet" type="text/css">
+	
+    <link href="../styles/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="../styles/custom.css" rel="stylesheet" type="text/css"> <!-- altijd custom.css als laatste laden --> 
+</head>
+
+<body>
+
+
+<!--NAVIGATIE-->
+<div id="wrap">
+	<div class="navbar-fixed-top">
+		<nav class="navbar nav1 navbar-default navbar-fixed-top navbar-inverse">
+			<div class="container-fluid">
+				<ul class="nav navbar-nav navbar-right">
+				  <li><a href="../aanmelden-afmelden/aanmelden.html">Inloggen</a></li>
+				  <li class="sprite"><a class="winkelmandje" href="../winkelmandje/index.html">Winkelmandje</a></li>
+				</ul>
+			</div>
+		</nav>  
+	</div>
+	<div class="navbar-fixed-top second-navbar">
+		  <nav class="nav2 navbar navbar-default">
+		  <div class="container-fluid">
+			<div class="navbar-header sprite">
+				<a class="navbar-brand logo" href="../index.html">Weerwinkel</a>
+				<button class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+					<div>MENU &nbsp;<span class="glyphicon hamburger glyphicon-menu-hamburger"></span></div>
+				</button>
+			</div>
+
+			<div class="collapse navbar-collapse" id="myNavbar">
+				<ul class="nav navbar-nav">
+				  <li><a href="../index.html">Home</a></li>
+				  <li><a href="../weerelementen/index.html">Shop</a></li>
+				  <li><a href="../over-ons/index.html">Over ons</a></li> 
+				  <li><a href="../reviews/index.html">Reviews</a></li> 
+				</ul>
+				<div class="hidden-xss lijn"></div>
+			</div>
+		  </div>
+		</nav>
+	</div>
+</div>
+
+<!--INHOUD PAGINA-->
+<div class="paginagrootte margepagina betaalinfo">
+    <div class="container-fluid">
+        
+        <div class="row">
+            <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
+                <h2 class="text-left">Betaalinfo</h2>
+            </div>
+        </div>
+
+        <!--Form-->
+        <div class="row">
+			<div class="col-xs-12 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3">
+				<div class="row">
+					<div class="form-group clearfix">
+						<div class="fieldset clearfix clearfix">
+							<div class="col-xs-12">
+								<h4 class="text-right"><em>Betaal met</em></h4>
+							</div>
+							<div class="col-xs-12">
+								<select class="form-control">
+									  <option value="disabled selected">Kies betaalmethode...</option>
+									  <option>Visa</option>
+									  <option>Bancontact</option>
+									  <option>Maestro</option>
+								</select>
+							</div>
+						</div>
+						<div class="fieldset clearfix">
+							<div class="col-xs-12">
+								<h4 class="text-right"><em>Naam kaarthouder</em></h4>
+							</div>
+							<div class="col-xs-12 col-sm-6">
+								<input type="text" class="form-control" id="Voornaam" placeholder="Voornaam">
+							</div>
+							<div class="col-xs-12 col-sm-6">
+								<input type="text" class="form-control" id="Naam" placeholder="Naam">
+							</div>
+						</div>
+						
+						<div class="fieldset clearfix">
+							
+							<div class="col-xs-12 col-sm-6">
+								<h4 class="text-right"><em>Kaartnummer</em></h4>
+								<input type="text" class="form-control" id="Kaartnummer" placeholder="">	
+							</div>
+							<div class="col-xs-12 col-sm-6">
+								<div class="row">
+										<div class="col-xs-12">
+											<h4 class="text-right"><em>Vervaldatum</em></h4>
+										</div>
+										<div class="col-xs-6">
+											<select class="form-control">
+														<option value="disabled selected">Maand...</option>
+														<option>01</option>
+														<option>02</option>
+														<option>03</option>
+														<option>04</option>
+														<option>05</option>
+														<option>06</option>
+														<option>07</option>
+														<option>08</option>
+														<option>09</option>
+														<option>10</option>
+														<option>11</option>
+														<option>12</option>
+
+														</select>
+										</div>
+										<div class="col-xs-6">
+											<select class="form-control">
+														<option value="disabled selected">Jaar...</option>
+														<option>2016</option>
+														<option>2017</option>
+														<option>2018</option>
+														<option>2019</option>
+														<option>2020</option>
+														<option>2021</option>
+
+														</select>
+										</div>
+								</div>
+							</div>
+					</div>
+				</div>
+			</div>
+        </div>
+
+        <!--bestel nu button-->
+        <div class="row">
+            <div class="col-xs-12 col-sm-4 col-sm-offset-4">
+              <h3 class="text-center">
+                  <a href="../winkelmandje/bestelling-verwerkt.html" role="button" class="text-center btn btn-default btn-block">Bevestig bestelling</a>
+              </h3>
+            </div>
+        </div>
+
+    </div>
+</div>
+	</div>
+
+
+
+ <!--FOOTER-->
+    <footer class=" navbar-default">
+
+			<div class="row footer">
+				<div class="col-xs-12">
+					<div class="pages">
+						<ul class="nav navbar-nav footer-left footer">
+							<li><a href="../disclaimer/index.html">Disclaimer</a></li>
+							<li><a href="../gebruiksvoorwaarden/index.html">Gebruiksvoorwaarden</a></li>
+							<li><a href="../contact/index.html">Contact</a></li>
+						</ul>
+						<ul class="nav sprite sociallinks navbar-nav navbar-right sprite footer">
+							<li><a href="http://facebook.com" class="facebook">Facebook</a></li>
+							<li><a href="http://instagram.com" class="instagram">Instagram</a></li>
+							<li><a href="http://twitter.com" class="twitter">Twitter</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+
+		</footer>
+
+
+
+<script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+<script src="../styles/bootstrap/js/bootstrap.min.js"></script>
+
+
+</body>
+</html>

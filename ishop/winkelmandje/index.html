@@ -1,0 +1,248 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+
+        <title>Weerwinkel | Je winkelmandje</title>
+		
+		<meta name="description" content="Bekijk je winkelmandje van de Weerwinkel">
+		<meta name="keywords" content="Weerwinkel, bestellen, winkelmandje, besteld, weer kopen">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<link rel="icon" 
+			  type="image/png" 
+			  href="../styles/images/favicon.png">
+
+		<link href="https://fonts.googleapis.com/css?family=Oswald:bold,regular|Raleway:italic,regular" rel="stylesheet" type="text/css">
+		
+        <link href="../styles/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+        <link href="../styles/custom.css" rel="stylesheet" type="text/css"> <!-- altijd custom.css als laatste laden --> 
+        
+    </head>
+
+    <body>
+
+
+<!--NAVIGATIE-->
+		<div id="wrap">
+			<div class="navbar-fixed-top">
+				<nav class="navbar nav1 navbar-default navbar-fixed-top navbar-inverse">
+					<div class="container-fluid">
+						<ul class="nav navbar-nav navbar-right">
+						  <li><a href="../aanmelden-afmelden/aanmelden.html">Inloggen</a></li>
+						  <li class="sprite"><a class="winkelmandje" href="../winkelmandje/index.html">Winkelmandje</a></li>
+						</ul>
+					</div>
+				</nav>  
+			</div>
+			<div class="navbar-fixed-top second-navbar">
+				  <nav class="nav2 navbar navbar-default">
+				  <div class="container-fluid">
+					<div class="navbar-header sprite">
+						<a class="navbar-brand logo" href="../index.html">Weerwinkel</a>
+						<button class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+							<div>MENU &nbsp;<span class="glyphicon hamburger glyphicon-menu-hamburger"></span></div>
+						</button>
+					</div>
+
+					<div class="collapse navbar-collapse" id="myNavbar">
+						<ul class="nav navbar-nav">
+						  <li class="active"><a href="../index.html">Home</a></li>
+						  <li class=""><a href="../weerelementen/index.html">Shop</a></li>
+						  <li><a href="../over-ons/index.html">Over ons</a></li> 
+						  <li><a href="../reviews/index.html">Reviews</a></li> 
+						</ul>
+						<div class="hidden-xss lijn"></div>
+					</div>
+				  </div>
+				</nav>
+			</div>
+		</div>
+
+			<!--INHOUD PAGINA-->
+			<div class="paginagrootte">
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
+							<h2>Jouw winkelmandje</h2>
+						</div>
+					</div>
+
+					<div class="row">
+						<div class="col-xs-12 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3">
+							<div class="row windrow">
+								<div class="col-xs-12">
+									<hr>
+								</div>
+								<div class="col-xs-3">
+									<img src="../styles/images/producten/wind-icon.png">
+								</div>
+								<div class="col-xs-5">
+									<p>Wind</p>
+									<p>21/12/2016</p>
+									<p>13u, 1 uur lang</p>
+								</div>
+
+								<div class="text-right col-xs-2">
+									<p>€49</p>
+								</div>
+								<div class="col-xs-2 text-right">
+									<a data-toggle="modal" data-target="#myModal"><span class="glyphicon glyphicon-trash" aria-hidden="true"></span></a>
+								</div>
+							</div>
+
+							<!-- tweede item -->
+							<div class="row regenrow">
+								<div class="col-xs-12">
+									<hr>
+								</div>
+								<div class="col-xs-3">
+									<img src="../styles/images/producten/regen-icon.png">
+								</div>
+								<div class="col-xs-5">
+									<p>Regen</p>
+									<p>28/12/2016</p>
+									<p>15u, 2 uur lang</p>
+
+								</div>
+								<div class="text-right col-xs-2">
+									<p>€65</p>
+								</div>
+								<div class="col-xs-2 text-right">
+									<a data-toggle="modal" data-target="#myModal1"><span class="glyphicon glyphicon-trash" aria-hidden="true"></span></a>
+
+								</div>
+							</div>
+
+
+							<!-- item toevoegen -->
+							<div class="row glyphzonderkleur">
+								<div class="col-xs-12">
+									<hr>
+								</div>
+								<div class="col-xs-2">
+									<a href="../Weerelementen/index.html" class="" role=""> 
+										&nbsp;&nbsp;&nbsp;<span class="glyphicon glyphicon-plus-sign" aria-hidden="true"></span>
+									</a>
+								</div>
+								<div class="col-xs-10">
+									<p> Voeg een item toe aan je winkelmandje </p>
+								</div>
+								<div class="col-xs-12">
+									<hr>
+								</div>
+							</div>
+
+							<!-- totaal -->
+							<div class="row">
+								<div class="col-xs-9">
+									<p> Totaal </p>
+								</div>
+								<div class="col-xs-2">
+									<p> €114 </p>
+								</div>
+							</div>
+							<!-- knop -->
+							<div class="row">
+								<div class="col-xs-12 col-sm-6 col-sm-offset-6">
+									<a href="../winkelmandje/uitchecken.html" class="btn btn-default btn-block" role="button">Naar de betaling</a>
+								</div>
+							</div>
+
+						</div>
+					</div>
+				</div>
+		</div>
+
+
+<!-- INHOUD POPUP -->
+		<div id="myModal" class="modal fade" role="dialog">
+		<div class="modal-dialog">
+
+			<!-- Modal content-->
+			<div class="modal-content">
+				<div class="modal-header"><button type="button" class="close" data-dismiss="modal">&times;</button>
+				</div>
+			<div class="modal-body">
+				<h4 class="text-center modal-title">Ben je zeker dat je dit item uit je winkelmandje wilt verwijderen?</h4>
+					<div class="buttonsinpopup">
+						<div class="col-xs-3 col-xs-offset-2 col-xs-3 col-sm-offset-3 ">
+							<button type="button" class="btn btn-default" data-dismiss="modal">Annuleren</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						</div>
+						<div class="col-xs-3">
+							<button type="button" class="button-wind btn btn-default" data-dismiss="modal">Item verwijderen</button>
+						</div>
+					</div>
+				</div>
+
+			</div>
+
+		</div>
+		</div>
+	<!-- INHOUD POPUP -->
+		<div id="myModal1" class="modal fade" role="dialog">
+		<div class="modal-dialog">
+
+			<!-- Modal content-->
+			<div class="modal-content">
+				<div class="modal-header"><button type="button" class="close" data-dismiss="modal">&times;</button>
+				</div>
+			<div class="modal-body">
+				<h4 class="text-center modal-title">Ben je zeker dat je dit item uit je winkelmandje wilt verwijderen?</h4>
+					<div class="buttonsinpopup">
+						<div class="col-xs-3 col-xs-offset-2 col-xs-3 col-sm-offset-3 ">
+							<button type="button" class="btn btn-default" data-dismiss="modal">Annuleren</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						</div>
+						<div class="col-xs-3">
+							<button type="button" class="button-regen btn btn-default" data-dismiss="modal">Item verwijderen</button>
+						</div>
+					</div>
+			</div>
+
+			</div>
+
+		</div>
+		</div>
+
+ <!--FOOTER-->
+		<footer class=" navbar-default">
+
+				<div class="row footer">
+					<div class="col-xs-12">
+						<div class="pages">
+							<ul class="nav navbar-nav footer-left footer">
+								<li><a href="../disclaimer/index.html">Disclaimer</a></li>
+								<li><a href="../gebruiksvoorwaarden/index.html">Gebruiksvoorwaarden</a></li>
+								<li><a href="../contact/index.html">Contact</a></li>
+							</ul>
+							<ul class="nav sprite sociallinks navbar-nav navbar-right sprite footer">
+								<li><a href="http://facebook.com" class="facebook">Facebook</a></li>
+								<li><a href="http://instagram.com" class="instagram">Instagram</a></li>
+								<li><a href="http://twitter.com" class="twitter">Twitter</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+
+			</footer>
+
+
+			<script src="http://code.jquery.com/jquery-1.12.4.min.js"></script>
+			<script src="../styles/bootstrap/js/bootstrap.min.js"></script> 
+
+
+		  <script>
+			$(document).ready(function(){
+			/*jquery code bij klik*/
+				$("button.button-wind").click(function(){
+					console.log('klik');
+					$(".windrow").addClass('hidden');
+				}) 
+				$("button.button-regen").click(function(){
+					$(".regenrow").addClass('hidden');
+				}) 
+			})
+		  </script>	
+
+    </body>
+</html>

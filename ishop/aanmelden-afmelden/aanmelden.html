@@ -1,0 +1,129 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+
+        <title>Weerwinkel | Meld je aan</title>
+		<meta name="description" content="Meld je aan bij de Weerwinkel">
+        <meta name="keywords" content="Weerwinkel, aanmelden, weer kopen">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<link rel="icon" 
+		  type="image/png" 
+		  href="../styles/images/favicon.png">
+		
+        <link href="../styles/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Oswald:bold,regular|Raleway:italic,regular" rel="stylesheet" type="text/css">
+        
+		<link href="../styles/custom.css" rel="stylesheet" type="text/css"> <!-- altijd custom.css als laatste laden --> 
+    </head>
+
+    <body>
+
+
+    <!--NAVIGATIE-->
+		<div id="wrap">
+			<div class="navbar-fixed-top">
+				<nav class="navbar nav1 navbar-default navbar-fixed-top navbar-inverse">
+					<div class="container-fluid">
+						<ul class="nav navbar-nav navbar-right">
+						  <li><a href="aanmelden.html">Inloggen</a></li>
+						  <li class="sprite"><a class="winkelmandje" href="../winkelmandje/index.html">Winkelmandje</a></li>
+						</ul>
+					</div>
+				</nav>  
+			</div>
+			<div class="navbar-fixed-top second-navbar">
+				  <nav class="nav2 navbar navbar-default">
+				  <div class="container-fluid">
+					<div class="navbar-header sprite">
+						<a class="navbar-brand logo" href="../index.html">Weerwinkel</a>
+						<button class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+							<div>MENU &nbsp;<span class="glyphicon hamburger glyphicon-menu-hamburger"></span></div>
+						</button>
+					</div>
+
+					<div class="collapse navbar-collapse" id="myNavbar">
+						<ul class="nav navbar-nav">
+						  <li class="active"><a href="../index.html">Home</a></li>
+						  <li class=""><a href="../weerelementen/index.html">Shop</a></li>
+						  <li><a href="../over-ons/index.html">Over ons</a></li> 
+						  <li><a href="../reviews/index.html">Reviews</a></li> 
+						</ul>
+						<div class="hidden-xss lijn"></div>
+					</div>
+				  </div>
+				</nav>
+			</div>
+		</div>
+
+
+			<!--INHOUD PAGINA-->
+		<div class="paginagrootte margepagina">
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-xs-12 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3">
+							<h1 class="text-right"> Meld je aan </h1>
+							<form>
+								<div class="fieldset">
+									<div class="row">
+										<div class="col-xs-12">
+
+												<div class="form-group">
+													<input type="email" class="form-control" id="emailadres" name="mail" placeholder="E-mailadres">
+												</div>
+												<div class="form-group">
+													<input type="password" class="form-control" id="wachtwoord" name="password" placeholder="Wachtwoord">
+												</div>
+												<div class="text-right checkbox checkbox-primary">
+													<input type="checkbox" id="aangemeldblijven">
+													<label for="aangemeldblijven">Aangemeld blijven</label>							
+												</div>
+										</div>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-xs-12 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3">
+										<div class=" col-xs-12 col-sm-8 col-sm-offset-2">
+											<a href="../index.html" class="btn btn-block btn-default"> Aanmelden </a>
+										</div>
+									</div>
+								</div>
+							</form> 
+
+						</div>
+					</div>
+				</div>
+
+		</div>
+        
+
+
+ <!--FOOTER-->
+    	<footer class="navbar-default">
+
+			<div class="row footer">
+				<div class="col-xs-12">
+					<div class="pages">
+						<ul class="nav navbar-nav footer-left footer">
+							<li><a href="../disclaimer/index.html">Disclaimer</a></li>
+							<li><a href="../gebruiksvoorwaarden/index.html">Gebruiksvoorwaarden</a></li>
+							<li><a href="../contact/index.html">Contact</a></li>
+						</ul>
+						<ul class="nav sprite sociallinks navbar-nav navbar-right sprite footer">
+							<li><a href="http://facebook.com" class="facebook">Facebook</a></li>
+							<li><a href="http://instagram.com" class="instagram">Instagram</a></li>
+							<li><a href="http://twitter.com" class="twitter">Twitter</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+
+		</footer> 
+  
+		
+		
+		<script src="http://code.jquery.com/jquery-1.12.4.min.js"></script>
+		<script src="../styles/bootstrap/js/bootstrap.min.js"></script> 
+    </body>
+</html>

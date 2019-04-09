@@ -1,0 +1,1550 @@
+/* ==============================================
+   COLORS
+   ============================================== */
+{
+    lichtblauw: rgba(0,172,224,1);
+	iets donkerder lichtblauw: rgba(0,153,188,1);
+    donkergrijs: rgba(51,51,51,1);
+    oranje: rgba(225,142,6,1);
+	iets donkerder oranje: rgba(239,128,7,1);
+    lichtgrijs: rgba(210,210,210,1);
+}
+
+/* ==============================================
+   GLOBAL STYLES
+   ============================================== */
+
+
+/* ==============================================
+   opmaak
+   ============================================== */
+.product{
+	margin-top:20px;
+}
+
+.modal-dialog{
+	margin-top:20%;
+}
+
+input#voorwaarden{
+	margin-left:10px;
+	position:relative;
+}
+.modal-header, .modal-footer{
+	border:0;
+}
+.modal-title{
+	margin-bottom:40px;
+	margin-top:20px;
+}
+.modal-header{
+	padding:20px;
+	
+}
+#mymodal{
+	margin-top:30%;
+}
+.buttonsinpopup{
+	width:100%;
+}
+.buttonsinpopup button{
+	margin: 0 auto;
+}
+
+/* titels */
+.glyphicon-trash{
+	cursor:pointer;
+}
+
+*{
+    font-family: raleway;
+    color: rgba(51,51,51,1);
+}
+h1, h2, h5{
+    font-family: oswald;
+    font-weight: bold;
+}
+h1{
+    font-size:3em;
+}
+
+h2{
+    font-size:2.5em;
+	margin: 50px 0;
+}
+
+h3{
+    font-size:2em;
+}
+
+
+
+/*  ===========================================
+    HOME
+    ===========================================  */
+/*titel*/
+.titel{
+    margin-top:180px;
+    background-color: rgba(255,255,255,0.8);
+    padding:20px;
+}
+#aanbieding::before{
+	content:"";
+	display: block;
+	height: 120px;
+	margin:-120px 0 0;
+}
+.home img{
+	overflow:hidden;
+	background-size: cover;
+}
+#aanbieding .regenpagina .achtergrondafbeelding{
+	width: 100%;
+	max-height: 200px;
+}
+
+/* achtergrondafb */
+
+
+.hoofdingsafbeelding{
+    background-image: url(images/home.jpg) ;
+    height: 94vh;
+    width: auto;
+    margin: 0;
+    background-size:cover;  
+    background-repeat:no-repeat;
+}
+/*Aanbieding home*/
+.titelaanbieding{
+    font-family: oswald;
+    font-weight:bold;
+}
+
+h3.aanbiedingtekst{
+	color:rgba(51,51,51,1);
+}
+
+/*Review home*/
+#review-home{
+    background-color: rgba(51,51,51,1);
+}
+
+#review-home h2, #review-home h3{
+    color:white;
+    padding:5px 30px;
+}
+
+
+#review-home h3{
+    text-align:center;
+}
+
+#aanbieding .prijstag{
+    background-color:rgba(225,142,6,0.9);
+    border-top-left-radius:60px;
+    border-bottom-left-radius:60px;
+    border-top-right-radius:15px;
+    border-bottom-right-radius:15px;
+    color:white;
+	margin:14px;
+}
+
+.prijstag{
+	padding-top:1px;
+}
+.prijstagtekst{
+    width:90%;
+    float:right;
+	display:block;
+	text-align:right;
+	padding-right:20px;
+}
+
+h3.prijstagtekst{
+	font-size:1.8em;
+}
+
+h4.prijstagtekst{
+	font-size:1.3em;
+}
+
+#aanbieding .koop-button .btn{
+	margin:0 auto;
+	padding:10px 5px;
+	margin-bottom:30px;
+	font-size:2em;
+}
+
+#aanbieding .aanbiedingtekst{
+	font-family:oswald;
+	font-weight:bold;
+	margin:15px;
+	font-size:3em;
+}
+
+#aanbieding .prijscirkel{
+	height:20px;
+	width:20px;
+	border-radius: 10px;
+	background-color: white;
+	position:absolute;
+	margin-top:48px;
+	margin-left:20px;
+}
+
+#review-home .trouwdag, #trouwdag .trouwdag{
+	background-image: url(images/papa_dirk.jpeg);
+	
+}
+#review-home .boer, #oogst .boer{
+	background-image: url(images/farmer-19050.jpg);
+	
+}
+#eline .strand{
+	background-image: url(images/eline.jpg);
+	height:400px;
+	overflow:hidden;
+	background-size:cover;
+}
+
+#review-home .boer, #review-home .trouwdag{
+	height: 200px;
+	overflow:hidden;
+	background-size: cover;
+}
+
+ #trouwdag .trouwdag, #oogst .boer{
+	height: 400px;
+	overflow:hidden;
+	background-size: cover;
+	border-radius: 0;
+ }
+
+#review-home .btn-reviewhome{
+	margin-top:-50px;
+	margin-left:-10px;
+}
+
+#review-home .btn-review-home{
+	margin-top:20px;
+	padding:10px;
+	margin-bottom:50px;
+}
+/*  ===========================================
+    REVIEWS
+    ===========================================  */
+#review .trouwdag, #review .oogst{
+	padding:0;
+}
+
+#jouw-verhaal h2, .highlight h2{
+	color:white;
+}
+
+a.verhaal{
+	text-decoration: underline;
+}
+a.verhaal:hover{
+	text-decoration: none;
+}
+
+
+/* buttons */
+.glyphzonderkleur .btn-default{
+	background-color:rgba(210,210,210,1);
+}
+.glyphzonderkleur .btn-default:hover{
+	background-color:rgba(200,200,200,1);
+}
+
+.btn{
+	border: none;
+	border-radius: 15px;
+	color: rgba(255,255,255,1);
+	margin: 10px 0;
+}
+.btn-default{
+	background-color: rgba(0,172,224,1);
+}
+.btn-default:hover, .btn-default:active, .btn-default:focus, .btn-default:focus:active{
+	background-color: rgba(0,153,188,1);
+	color: rgba(255,255,255,1);
+	border:none; 
+}
+.btn-warning{
+	background-color: rgba(225,142,6,1);
+	border-radius: 10px;
+}
+.btn-warning:hover, .btn-warning:active, .btn-warning:focus, .btn-warning:focus:active{
+	background-color:rgba(239,128,7,1);
+}
+#btn-today{
+	width: 180px;
+	margin-top: 10px;
+}
+.knopkeintmidden{
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+.wit{
+	color: rgba(255,255,255,1);
+}
+
+
+/* form */
+
+.form-group input, .form-group select{
+    margin-top: 20px;
+    border: none;
+    border-bottom: 1px solid rgba(51,51,51,1);
+    border-radius: 0;
+	box-shadow: none;
+	font: inherit;
+}
+.form-group input:focus, .form-group select:focus{
+    background-color: rgba(51,51,51,1);
+    color: rgba(255,255,255,1);
+    border-radius: 5px;
+    border:none;
+	box-shadow: none;
+}
+.form-group select:focus{
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+.form-group select:focus option{
+    color: rgba(210,210,210,1);
+}
+.form-group input:hover:not(:focus), .form-group select:hover:not(:focus){
+    background-color: rgba(210,210,210,1);
+    color: rgba(51,51,51,1);
+    border-radius: 5px;
+    border:none;
+}
+.form-group textarea{
+	margin-top: 20px;
+	border-color: rgba(51,51,51,1);
+	border-radius: 5px;
+}
+.form-group textarea:hover:not(:focus){
+	border-color: rgba(210,210,210,1);
+	background-color: rgba(210,210,210,1);
+}
+.form-group textarea:focus{
+	background-color: rgba(51,51,51,1);
+	color: rgba(255,255,255,1);
+	box-shadow: none;
+}
+.form-group .from-control option:selected {
+	background-color: rgba(210,210,210,1);
+}
+
+/* Base for label styling */
+[type="checkbox"]:not(:checked),
+[type="checkbox"]:checked {
+  position: absolute;
+  left: -9999px; /* doet de normale checkbox weg */ 
+}
+[type="checkbox"]:not(:checked) + label,
+[type="checkbox"]:checked + label {
+  position: relative;
+  padding-right: 25px;
+  cursor: pointer;
+}
+
+/* checkbox aspect */
+[type="checkbox"]:not(:checked) + label::after,
+[type="checkbox"]:checked + label::after {
+  content: '';
+  position: absolute;
+  left:149px; top: 2px;
+  width: 17px; height: 17px;
+  border: 1px solid rgba(51,51,51,1);
+  border-radius: 0;
+}
+
+/* checked mark aspect */
+[type="checkbox"]:not(:checked) + label::before,
+[type="checkbox"]:checked + label::before {
+  content: '✔';
+  position: absolute;
+  left: 152px; top: 3px;
+  font-size: 18px;
+  line-height: 0.8;
+  color: rgba(51,51,51,1);
+  transition: all .2s;
+}
+/* checked mark aspect changes */
+[type="checkbox"]:not(:checked) + label::before {
+  opacity: 0;
+  transform: scale(0);
+}
+[type="checkbox"]:checked + label::before {
+  opacity: 1;
+  transform: scale(1);
+}
+/* disabled checkbox */
+[type="checkbox"]:disabled:not(:checked) + label::after,
+[type="checkbox"]:disabled:checked + label::after {
+  box-shadow: none;
+  border-color: #bbb;
+  background-color: #ddd;
+}
+[type="checkbox"]:disabled:checked + label::before {
+  color: #999;
+}
+[type="checkbox"]:disabled + label {
+  color: #aaa;
+}
+/* accessibility */
+[type="checkbox"]:checked:focus + label::after,
+[type="checkbox"]:not(:checked):focus + label::after {
+  border: 1px dotted blue;
+}
+
+/* hover style just for information */
+label:hover::after {
+  border: 1px solid rgba(150,150,150,1);
+}
+label{
+	font-weight: inherit;
+}
+.form-group [type="checkbox"]:not(:checked) + label::after, .form-group [type="checkbox"]:checked + label::after{
+	left:232px;
+}
+.form-group [type="checkbox"]:not(:checked) + label::before, .form-group [type="checkbox"]:checked + label::before{
+	left:234px;
+	top:4px;
+}
+
+.inputfile {
+	width: 0.1px;
+	height: 0.1px;
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+	z-index: -1;
+}
+.inputfile + label {
+	color: white;
+	background-color: rgba(0,172,224,1);
+	font-size: inherit;
+	font-weight: bold;
+	display: inline-block;
+	margin-top: 20px;
+	padding: 5px 20px;
+	border-radius: 15px;
+	cursor: pointer;
+}
+
+.inputfile:focus + label,
+.inputfile + label:hover {
+	background-color: rgba(0,153,188,1);
+}
+.wit .glyphicon{
+	color: white;
+	padding-right:10px;
+}
+
+
+.fieldset{
+	margin: 30px 0;
+}
+.hidden-xs{
+    display:none;
+}
+.hidden-xss{
+    display:none;
+}
+
+
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+.form-group h4{
+	margin-bottom: -10px;
+}
+
+
+article{
+	margin-bottom: 35px;
+	padding: 5px;
+	background-color: rgba(240,240,240,1);
+	min-height: 350px;
+	transition: 0.1s;
+}
+article:hover{
+	background-color: rgba(210,210,210,1);
+}
+article h3{
+	font-weight: 800;
+}
+article h4{
+	font-weight:300;
+}
+a.shop:hover{
+	text-decoration: none;
+}
+
+/*Foto's*/
+.regenfoto{
+	background-image: url(images/background/aanbieding.png);
+	height:250px;
+    width:100%;
+    background-size:100% auto;
+	background-repeat: no-repeat;
+	background-color: white;
+}
+
+.sneeuwfoto{
+	background-image: url(images/background/sneeuwklein.jpg);
+	height:250px;
+    width:100%;
+    background-size: 100% auto;
+	background-repeat: no-repeat;
+	background-color: white;
+}
+.zonfoto{
+	background-image: url(images/background/zonklein.jpg);
+	height:250px;
+    width:100%;
+    background-size:100% auto;
+	background-repeat: no-repeat;
+	background-color: white;
+}
+
+.sterfoto{
+	background-image: url(images/background/vallendesterklein.jpg);
+	height:250px;
+    width:100%;
+    background-size:100% auto;
+	background-repeat: no-repeat;
+	background-color: white;
+}
+.hagelfoto{
+	background-image: url(images/background/hagelklein.jpg);
+	height:250px;
+    width:100%;
+    background-size:100% auto;
+	background-repeat: no-repeat;
+	background-color: white;
+}
+
+.windfoto{
+	background-image: url(images/background/windklein.jpg);
+	height:250px;
+    width:100%;
+    background-size:100% auto;
+	background-repeat: no-repeat;
+	background-color: white;
+}
+.cadeaufoto{
+	background-image: url(images/background/cadeaubon.jpg);
+	height:250px;
+    width:100%;
+    background-size:100%;
+	background-repeat: no-repeat;
+}
+img.over{
+	border-radius: 50%;
+	margin: 20px 0 30px 0;
+	
+}
+a.onderlijn {
+	color: rgba(225,142,6,1);
+	text-decoration: underline;
+}
+a:hover{
+	color: rgba(225,142,6,1);
+	text-decoration: none;
+}
+
+/* highlight = oranje blok */ 
+.highlight a:hover{
+	color:rgba(51,51,51,1);
+}
+.highlight a{
+	color:rgba(51,51,51,1);
+}
+.highlight a.btn{
+	color: rgba(255,255,255,1);
+}
+.highlight{
+	padding: 20px 0;
+	background-color: rgba(225,142,6,1);
+	margin-top: 20px;
+	margin-bottom:40px;
+	
+}
+.highlight p, .highlight h5{
+	color: rgba(255,255,255,1);
+}
+.highlight p{
+	font-size: 1.5em;
+}
+.highlight div.brederwordendding p{
+	color: rgba(51,51,51,1);
+	font-size: 1em;
+	transition:2s;
+}
+.fieldset .highlight{
+	padding: 0;
+}
+#transitievergelijking{
+    transition:all 0.5s ease;
+}
+
+
+
+
+/*  =====================
+         datepicker 
+    =====================  */
+#ui-datepicker-div {
+	display:none;
+}
+.ui-datepicker {
+	box-sizing: border-box;
+	 width: 252px;
+	 height: auto;
+	 margin: 5px auto 0;
+	border: 4px solid rgba(51,51,51,1);
+	background-color: rgba(255,255,255,1);
+}
+.ui-datepicker a {
+	text-decoration: none;
+}
+
+/* header */
+.ui-datepicker-header {
+	  background: rgba(255,255,255,1);
+	  color: rgba(51,51,51,1);
+	  font-weight: normal;
+	  line-height: 30px;
+	  border-width: 0 0 4px 0;
+	  border-style: solid;
+	  border-color: rgba(51,51,51,1);
+} 
+/* maand */
+.ui-datepicker-title { 
+  	text-align: center;
+	font-weight: bold;
+}
+/* pijltjes */
+.ui-datepicker-prev, .ui-datepicker-next {
+	  display: inline-block;
+	  width: 30px;
+	  height: 30px;
+	  text-align: center;
+	  cursor: pointer;
+	  background-image: url('../styles/images/arrow.png');
+	  background-repeat: no-repeat;
+	  line-height: 600%;
+	  overflow: hidden;
+}
+.ui-datepicker-prev {
+  float: left;
+  background-position: center -30px;
+}
+.ui-datepicker-next {
+  float: right;
+  background-position: center 0px;
+}
+/* dagen */
+.ui-datepicker thead {
+  background-color: rgba(255,255,255,1);
+	font-weight: normal;
+	font-size: 0.8em;
+}
+.ui-datepicker th {
+  padding: 10px 0 10px 4px;
+  color: rgba(51,51,51,1);
+	text-align: center;
+}
+/* datums */
+.ui-datepicker tbody td {
+  padding: 2px 0 2px 4px;
+	text-align: center;
+}
+/* default */
+.ui-datepicker td span, .ui-datepicker td a {
+	  display: inline-block;
+	  text-align: center;
+	  width: 30px;
+	  height: 30px;
+	  line-height: 30px;
+	  color: rgba(51,51,51,1);
+}
+.ui-datepicker-unselectable .ui-state-default {
+	  /*visibility: hidden;*/
+	color: rgba(210,210,210,1);
+}
+/* hover */
+.ui-datepicker-calendar .ui-state-hover {
+  	background: rgba(210,210,210,1);
+	border-radius: 50%;
+}
+/* active */
+.ui-datepicker-calendar .ui-state-active {
+	  background: rgba(0,172,224,1);
+	  color: rgba(255,255,255,1);
+	  position: relative;
+	border-radius: 50%;
+}
+#datepicker{
+	margin-top:20px;
+}
+
+.margepagina{
+	padding-top:60px;
+}
+
+.geenpaginamarge{
+	margin:0;
+	padding:0;
+}
+#oogst h3, #trouwdag h3, #eline h3{
+	font-family:oswald;
+	font-weight:bold;
+}
+
+
+
+/*  ===========================================
+    navigatie
+    ===========================================  */
+
+body {
+  padding-top: 100px;
+	background-color: rgba(255,255,255,1);
+	
+}
+.second-navbar{
+  top:35px;
+}
+.navbar{
+    min-height:0;
+}
+.nav1{
+	height: 35px;
+    padding:0;
+}
+.nav2, .footer{
+    background-color:rgba(0,172,224,1);
+    border: none;
+    border-radius: 0;
+}
+.nav2 a, .footer a{
+    color:rgba(255,255,255,1);
+}
+.nav2 .navbar-nav>li>a{
+  color: rgb(255,255,255);
+  font-weight:bold;
+  font-size: 1.4em;
+}
+.lijn{
+    border-bottom:6px solid rgba(51,51,51,1);
+    width:100%;
+    margin-top:80px;
+}
+.container-fluid>.navbar-collapse{
+    margin-right: -15px;  /*lijn over volledige breedte scherm*/
+    margin-left: -15px;
+	transition: all 0.4s ease;
+}
+.navbar-collapse{
+   border-top:0;
+}
+.nav1 ul li{
+    display:inline;
+    width: auto;
+}
+.nav1 ul{
+	float:right;
+}
+.nav1 a{
+	float:left;
+}
+
+.sociallinks a{
+    float:right;
+}
+.collapse>.navbar-nav>li>a{
+	transition:all 0.5s ease;
+}
+
+#myNavbar .navbar-nav>li>a{
+	line-height:40px;
+}
+
+.nav2 .navbar-nav>li{
+	transition:all 0.4s ease;
+}
+
+
+/*tab die actief staat*/
+.navbar-default .navbar-nav>.active>a{
+    background-color: rgba(51,51,51,1);
+    color:rgba(255,255,255,1);
+	
+}
+.navbar-default .navbar-nav>.active>a:hover{
+   background-color: rgba(51,51,51,1);
+    color:rgba(255,255,255,1);
+}
+.navbar-default .navbar-nav>.active>a:active{
+    background-color: rgba(210,210,210,1);
+    color:rgba(51,51,51,1);
+	border:none;
+}
+/*Tab hover*/
+.navbar-default .navbar-nav>li>a:hover{
+    background-color: rgba(51,51,51,1);
+    color:rgba(255,255,255,1);
+}
+/*Tab active*/
+.navbar-default .navbar-nav>li>a:active{
+    background-color: rgba(210,210,210,1);
+    color:rgba(51,51,51,1);
+}
+/*MENU BUTTON*/
+.navbar-default .navbar-toggle{
+    border:0;
+}
+.navbar-toggle{
+    font-size:1.2em;
+    margin-top:25px;
+    font-weight:bold;
+}
+.navbar-toggle:hover{
+    background-color:rgba(0,172,224,1);
+}
+
+/* footer */
+.sociallinks {
+    width: 100%;
+    text-align: center;
+  }
+.sociallinks > li {
+	float: none;
+	display: inline-block;
+	position: relative;
+	top: 0%;
+}
+.sociallinks > li.navbar-right {
+	float: right !important;
+}
+footer{
+    margin:0;
+}
+
+
+/*links*/
+.footer .navbar-nav>li>a{
+    color:white;
+	padding-left:30px;	
+}
+.footer .navbar-nav>li>a:hover{
+    background-color: transparent;
+}
+.footer .navbar-nav>li>a:active{
+    background-color: rgba(51,51,51,1);
+    color:white;
+}
+.footer .navbar-nav>li>.facebook:active, .footer .navbar-nav>li>.twitter:active, .footer .navbar-nav>li>.instagram:active{
+    background-color: transparent;
+}
+.footer .navbar-nav>li>.facebook, .footer .navbar-nav>li>.twitter, .footer .navbar-nav>li>.instagram{
+    margin:10px 20px;
+}
+/*nav1 inloggen en winkelmandje*/
+.nav1 .navbar-nav>li>a{
+    color:white;
+    line-height:10px;
+}
+
+.nav1 .navbar-nav>li>a:hover{
+    border-top-left-radius:0;
+    border-top-right-radius:0;
+    background-color:transparent;
+}
+.nav1 .navbar-nav>li>a:active{
+    background-color:transparent;
+}
+
+
+/*  ================================
+    vergelijkingspagina
+    ================================  */
+.vergelijkpijltje{
+	float:right;
+}
+.windvergelijking, .regenvergelijking{
+    width:250px;
+	min-height:200px;
+}
+.smalletekst{
+    white-space:normal;
+    width:250px;
+}
+
+.vergelijkbutton{
+	width:250px;
+}
+
+th.kolombreedte{
+	width: 60px; 
+} 
+
+h4.tabel{
+	font-family: oswald;
+	font-weight: bold;
+}
+
+/*  ================================
+    REVIEWS
+    ================================  */
+.blauw{
+	margin-bottom:70px;
+}
+
+/*  ================================
+    SPRITES
+    ================================  */
+.regenfoto, .windfoto, .zonfoto, .sneeuwfoto, .sterfoto, .hagelfoto, .cadeaufoto{
+	height:200px;
+}
+.sprite a{
+    display:inline-block; /*elementen naast elkaar plaatsen*/
+    width:60px;
+    height:61px; 
+    background-image: url(images/sprite.png);
+    background-size: 500px auto;
+    text-indent:-9999px;
+}
+.sprite .facebook{
+    background-position:0 0;
+}
+
+.sprite .twitter{
+    background-position:-61px 0;
+}
+
+.sprite .instagram{
+    background-position:-122px 0;
+}
+
+.sprite .facebook:hover{
+    background-position:0 -61px;
+}
+
+.sprite .twitter:hover{
+    background-position:-61px -61px;
+}
+
+.sprite .instagram:hover{
+    background-position:-122px -61px;
+}
+
+.sprite .facebook:active{
+    background-position:0 -122px;
+}
+
+.sprite .twitter:active{
+    background-position:-61px -122px;
+}
+
+.sprite .instagram:active{
+    background-position:-122px -122px;
+}
+
+.sprite .winkelmandje{
+    background-position:-122px 0;
+    width:30px;
+    height:30px;
+    background-size:250px auto;
+    margin-right:20px;
+    margin-top:-4px;
+}
+
+.sprite .winkelmandje:hover{
+    background-position:-122px -31px;
+}
+.sprite .winkelmandje:active{
+    background-position:-122px -61px;
+}
+
+.sprite .logo{
+    background-position:0 -140px;
+    width:160px;
+    height:50px;
+	background-size:380px;
+	margin-top:15px;
+}
+
+.trouwdag-review{
+    background-image: url(images/papa_dirk.jpeg);
+	margin-left: -15px;
+}
+.boer-review{
+    background-image: url(images/farmer-19050.jpg);
+}
+.trouwdag-review, .boer-review{
+	height:300px;
+    width:100%;
+    background-size:100%;
+	text-indent:-9999px;
+}
+
+.regen{
+    background-image: url(images/background/regen.jpg);
+    height:300px;
+    width:100%;
+    background-size:100%;
+    text-indent:-9999px;
+}
+.windrow img, .regenrow img{
+	width:100%;
+}
+.betaalinfo .row{
+	margin-left:0;
+	margin-right: 0;
+}
+
+
+
+/*  ===========================================
+    PRODUCTPAGINA'S
+    ===========================================  */
+/* WIND */
+.achtergrondafbeelding{
+	height: 400px;
+	width: auto;
+	background-size: cover;
+	margin-top:0;
+}
+.wind .achtergrondafbeelding{
+	background-image: url(images/background/wind.jpg);
+}
+.hagel .achtergrondafbeelding{
+	background-image: url(images/background/hagel.jpg);
+}
+.regenpagina .achtergrondafbeelding{
+	background-image: url(images/background/regen.jpg);
+}
+.sneeuw .achtergrondafbeelding{
+	background-image: url(images/background/sneeuw.jpg);
+}
+.vallende-ster .achtergrondafbeelding{
+	background-image: url(images/background/vallendester.jpg);
+}
+.zon .achtergrondafbeelding{
+	background-image: url(images/background/zon.jpg);
+}
+.grijsvlak{
+	margin-top:30px;
+    background-color: rgba(255,255,255,0.5);
+    padding:20px;
+	margin-bottom: 30px;
+}
+.icon{
+	padding:0;
+}
+.icon img{
+	width: 100%;
+}
+.kleinetekst{
+	font-size: 0.8em;
+}
+.uitleg{
+	margin-top: 50px;
+}
+
+#cadeaubongeven{
+	background-color: rgba(225,142,6,1);
+	padding:25px 20px;
+	color:white;
+	font-family: oswald;
+}
+
+#cadeaubongeven [type="checkbox"]:not(:checked) + label, #cadeaubongeven [type="checkbox"]:checked + label{
+	margin-right:30px;
+}
+#cadeaubongeven label, #cadeabongeven [type="checkbox"]:not(:checked) + label::before, #cadeaubongeven [type="checkbox"]:checked + label::before{
+	color:white;
+	font-weight:bold;
+}
+#cadeaubongeven [type="checkbox"]:not(:checked) + label::after, #cadeaubongeven [type="checkbox"]:checked + label::after{
+	border: 1px solid white;
+}
+
+#cadeabongeven label:hover::after{
+	border: 1px solid white !important;
+}
+
+.contactverstuurd h3{
+	margin-bottom: 50px;
+	}
+.col-xs-12 .btn {
+	max-width: 300px;
+	margin: 10px auto;
+}
+
+.paginagrootte{
+	padding-bottom: 50px;
+	min-height:59vh;
+}
+
+.navbar-default .row.footer{
+		margin-right:0;
+		margin-left:0;
+	}
+
+/* MEDIA QUERIES
+*********************************************/
+/* Extra small devices (phones, less than 768px) */
+/* No media query -> mobile first strategy */
+/* Please use the Global Styles */
+
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+	.navbar-default .row.footer{
+		margin-right:0;
+		margin-left:0;
+	}
+
+	.paginagrootte{
+		padding-bottom: 50px;
+		min-height:77vh;
+	}
+	#myNavbar .navbar-nav>li>a{
+		line-height:20px;
+	}
+	.hidden-sm{
+		display:none;
+	}
+	.hidden-xss{
+		display:block;
+	}
+	
+	/* PRODUCTPAGINA'S */
+	/* wind */
+	.grijsvlak a.btn{
+		margin-top:20px;
+	}
+	.icon{
+		padding: 0  15px;
+	}
+	.grijsvlak{
+		height: 100%;
+		margin-top:0;
+		padding-top:50px;
+	}
+
+	/* HOME */
+	/*titel home*/
+	h1{
+		font-size:3.5em;
+	}
+	.titel{
+		padding:20px;
+		width:50%;
+		margin-left:25%;
+	}
+	#aanbieding .regenpagina .achtergrondafbeelding{
+		max-height: 350px;
+	}
+	#review-home .boer, #review-home .trouwdag{
+		height: 400px;
+	}
+	/*Review home*/
+	#review-home{
+		background-color: rgba(51,51,51,1);
+	}
+	#review-home h2, #review-home h3{
+		color:white;
+		padding:5px 50px;
+	}
+	#review-home h3{
+		text-align:center;
+	}
+	
+	h3.prijstagtekst{
+		font-size:1.7em;
+		margin-top:0;
+		padding-top:20px;
+	}
+
+	h4.prijstagtekst{
+		padding-bottom:10px;
+	}
+
+	#aanbieding .prijstag{
+		padding:0;
+		margin:5px;
+	}
+
+	#aanbieding .koop-button .btn{
+		margin-top:5px;
+		height:105px;
+		border-radius:20px;
+		margin-left:-30px;
+		padding-top:20px;
+		font-size: 3em;
+	}
+
+	#aanbieding .prijscirkel{
+		margin-top:40px;
+		margin-left:30px;
+	}
+
+	#review-home .btn-reviewhome{
+		padding:10px;
+		width:120%;
+		margin-left:-30px;
+	}
+	#review-home .btn-review-home{
+		font-size: 1.5em;
+	}
+
+	/* NAVIGATIE */
+	.collapse>.navbar-nav>li>a{
+		line-height:20px;
+		border-top-left-radius:15px;
+		border-top-right-radius:15px;
+	}
+	.sociallinks {
+		width: auto;
+		text-align: center;
+	 }
+	.nav2 ul{
+		margin-left:0;
+	}
+	.nav2 .navbar-nav>li{
+		margin:30px 4px 0;
+	}
+	
+	
+	/*Marges enzo voor tabs*/
+	.nav2 .navbar-nav>li{
+		margin:30px 7px 0;
+	}
+	
+	.nav2 li>a{
+		padding:15px 20px 15px; 
+	}
+
+	/*tab hover*/
+	.navbar-default .navbar-nav>li>a:hover{
+		background-color: rgba(51,51,51,1);
+	}
+	.navbar-default .navbar-nav>li>a:hover{
+		color:rgba(255,255,255,1);
+	}
+	.navbar-default .navbar-nav>li>a:hover{
+		border-top-left-radius:15px;
+		border-top-right-radius:15px;
+	}
+	
+	
+	/*tab active*/
+	.navbar-default .navbar-nav>li>a:active{
+		background-color: rgba(210,210,210,1);
+	}
+	.navbar-default .navbar-nav>li>a:active{
+		color:rgba(51,51,51,1);
+	}
+	.nav2 li>a:active{
+		/*border-bottom:6px solid rgba(210,210,210,1);*/
+	}
+	
+	/*Tab die actief is*/
+	.active{
+		border-bottom:6px solid rgba(255,255,255,1);
+	}
+	.navbar-default .navbar-nav>.active>a{
+		color:rgba(51,51,51,1);
+	}
+	.navbar-default .navbar-nav>.active>a{
+		background-color: rgba(255,255,255,1);
+		border-top-left-radius:15px;
+		border-top-right-radius:15px;
+	}
+	.navbar-default .navbar-nav>.active>a:hover{
+		background-color: rgba(51,51,51,1);
+	}
+	.navbar-default .navbar-nav>.active>a:active{
+		background-color: rgba(210,210,210,1);
+	}
+	.active:hover{
+		border-bottom:6px solid rgba(51,51,51,1);
+	}
+	.navbar-default .navbar-nav>.active>a:hover{
+		color:rgba(255,255,255,1);
+	}
+	.navbar-default .navbar-nav>.active>a:active{
+		color:rgba(51,51,51,1);
+	}
+	.active:active{
+		border-bottom:6px solid rgba(210,210,210,1);
+	}
+	.sprite .winkelmandje{
+		margin-top:2px;
+	}
+	
+	/**/
+	.trouwdag{
+		height:450px;
+	}
+	.boer{
+		height:450px;
+	}
+
+	/*FOOTER links*/
+	.footer .navbar-nav>li>a{
+		color:white;
+		padding-left:30px;
+	}
+	.footer .navbar-nav>li>a:hover{
+		text-decoration: underline;
+	}
+
+	.footer .navbar-nav>li>a:hover{
+		background-color: transparent;
+	}
+	.footer .navbar-nav>li>a:active{
+		background-color: transparent;
+		color:rgba(51,51,51,1);
+	}
+	.footer .navbar-nav>li>.facebook:active, .footer .navbar-nav>li>.twitter:active, .footer .navbar-nav>li>.instagram:active{
+		background-color: transparent;
+	}
+	.footer .navbar-nav>li>.facebook, .footer .navbar-nav>li>.twitter, .footer .navbar-nav>li>.instagram{
+		margin:10px 20px;
+	}
+	
+	ul.footer{
+		display:inline-block;
+	}
+	.footer .sociallinks{
+		margin-right:5%;
+	}
+	ul.nav.navbar-nav.footer-left {
+		width: 50%;
+		padding: 17px 0;
+		padding-left: 10px;
+		font-size:1.1em;
+	}
+	ul.nav.navbar-nav.footer-left>li {
+		padding-left:0;
+	}
+	/*nav1 inloggen en winkelmandje*/
+	.nav1 .navbar-nav>li>a{
+		color:rgba(255,255,255,1);
+		line-height:10px;
+	}
+
+	.nav1 .navbar-nav>li>a:hover{
+		border-top-left-radius:0;
+		border-top-right-radius:0;
+		background-color:transparent;
+	}
+	.nav1 .navbar-nav>li>a:active{
+		background-color:transparent;
+	}
+	.footer .navbar-nav>li>a{
+    color:white;
+	padding-left:0;
+	}
+	
+	/* REVIEWS */
+	.blauw{
+		background-color: rgba(0,172,224,1);
+		padding:20px;
+		padding-bottom:30px;
+	}
+	.blauw *{
+		color: rgba(255,255,255,1);
+	}
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+	.paginagrootte{
+	padding-bottom: 50px;
+	min-height:77vh;
+}
+	.hidden-md{
+		display:none;
+	}
+
+	.hidden-none-md{
+		display:block;
+	}
+	
+	.nav2 ul{
+		margin-left:20%;
+	}
+	
+	/* HOME */
+	/*titel home*/
+	.titel{
+		margin-top:220px;
+	}
+	.titel .btn{
+		font-size: 1.5em;
+	}
+	#aanbieding{
+		margin-bottom: 50px;
+	}
+	#aanbieding .koop-button .btn{
+		margin-top:5px;
+		height:65px;
+		margin-left:6px;
+		padding-top:10px;
+		font-size: 2em;
+	}
+	#review-home .boer, #review-home .trouwdag{
+		height: 450px;
+		min-width: 100%;
+	}
+	.trouwdag{
+		border-bottom-right-radius: 80px;
+		z-index:4;
+		position:relative;
+	}
+	.trouwdag-container{
+		margin-bottom:50px;
+	}
+	.boer{
+		border-bottom-left-radius: 80px;
+		z-index:4;
+		position:relative;
+	}
+	.boer-container{
+		margin-bottom:50px;
+	}
+
+	#aanbieding .regenpagina .achtergrondafbeelding{
+		width:50%
+	}
+	ul.nav.navbar-nav.footer-left>li {
+		padding-left:40px;
+	}
+
+	.review-tekstballon{
+		background-color:white;
+		border-top-right-radius:20px;
+		border-bottom-right-radius:20px;
+		margin-left:-90px;
+		margin-top:60px;
+		height:390px;
+		z-index:3;
+		position:relative;
+		width:30%;
+	}
+
+	.review-tekstballon2{
+		background-color:white;
+		border-top-left-radius:20px;
+		border-bottom-left-radius:20px;
+		margin-left:15px;
+		margin-top: 60px;
+		height:390px;
+		z-index:3;
+		position:relative;
+		width:31.5%;
+	}
+
+	#review-home h3{
+		text-align:left;
+		color:rgba(51,51,51,1);
+		margin-left:0;
+		padding:0;
+		padding-left: 80px;
+		padding-bottom:0;
+		margin-bottom:0;
+	}
+	#review-home p{
+		text-align:left;
+		color:rgba(51,51,51,1);
+		font-size:1.3em;
+		padding-top: 20px;
+		padding-left: 80px;
+	}
+	#review-home h3.review2{
+		text-align:left;
+		color:rgba(51,51,51,1);
+		margin-left:0;
+		padding:0;
+		padding-left: 0;
+		padding-right:80px;
+	}
+	#review-home p.review2{
+		text-align:left;
+		color:rgba(51,51,51,1);
+		font-size:1.3em;
+		padding-top: 20px;
+		padding-left: 0;
+		padding-right:80px;
+	}
+
+	#review-home p>a{
+		color:orange;
+
+	}
+	.cadeaufoto{
+		min-height:200px;
+		background-size:300px;
+	}
+
+	.row.footer, .row.regenpagina, #review-home .row, .trouwdag-container.row, .boer-container-row, #aanbieding .row{
+		margin-right:0;
+		margin-left:0;
+	}
+
+
+/*  ===========================================
+    REVIEW
+    ===========================================  */
+	#trouwdag .row .trouwdag{
+		margin-left:-8px;
+		border-bottom-left-radius:60px;
+	}
+	#trouwdag .row .blauw, #oogst .row .blauw, #eline .row .blauw{
+		margin-top:-60px;
+		padding:40px;
+		padding-top:80px;
+	}
+	#oogst .row .boer{
+		margin-right:-8px;
+		border-bottom-right-radius: 60px;
+	}
+
+	#eline .row .strand{
+		margin-left:-7px;
+		border-bottom-left-radius: 60px;
+		border-bottom-right-radius:0;
+		z-index:10;
+		position:relative;
+		background-position:0 -50px;
+	}
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+	
+
+}
+
+/* for higher resolutions (android and retina) */
+@media screen and (-webkit-min-device-pixel-ratio: 1.5), screen and (max--moz-device-pixel-ratio: 1.5) {
+  
+}
+
